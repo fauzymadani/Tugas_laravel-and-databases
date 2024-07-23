@@ -13,15 +13,23 @@
 
 ## Laravel Installation
 
-```composer create-project laravel/laravel:^10.0  mylaravelProject```
+```bash
+composer create-project laravel/laravel:^10.0  mylaravelProject
+```
 
 if you want to download laravel 11, run this:
 
-```composer create-project laravel/laravel mylaravelProject```
+```bash
+composer create-project laravel/laravel mylaravelProject
+```
 
 then :
-- ```cd myLaravelProject```
-- ```php artisan serve```
+```bash
+  cd myLaravelProject
+```
+```bash
+php artisan serve
+```
 
 copy this link and open in tour browser
 `http://localhost:8000/`
@@ -38,15 +46,23 @@ and voilah, you're ready for laravel development.
 mariadb version: `mariadb  Ver 15.1 Distrib 10.11.6-MariaDB, for debian-linux-gnu (x86_64) using  EditLine wrapper`
 
 login as root in your terminal
-- `mariadb -u root -p`
+```bash
+mariadb -u root -p
+```
 to show databases, run the following command:
-- `SHOW DATABASES;`
+```bash
+SHOW DATABASES;
+```
 
 # creating databases
 to create Database
-- `CREATE DATABASE yourDbname;`
+```bash
+CREATE DATABASE yourDbname;
+```
 // navigate to the databases
-- `use yourDbName;`
+```bash
+use yourDbName;
+```
 create a table inside the databases
 ```bash
 MariaDB [jurusan]> CREATE TABLE pplsatu ( 
@@ -64,7 +80,9 @@ MariaDB [jurusan]> show tables;
 ![db4](https://github.com/user-attachments/assets/285df4ab-1e53-43ac-be53-8d69e3fc7823)
 
 ### to see the detail of your table
-- `DESC yourTable;`
+```bash
+DESC yourTable;
+```
 
 ![db5](https://github.com/user-attachments/assets/a3968559-26f0-4c26-8dbe-f8506c82af65)
 
